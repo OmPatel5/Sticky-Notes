@@ -1,6 +1,8 @@
+import Login from '<nextjs>/components/Login'
 import { SessionProvider } from '<nextjs>/components/SessionProvider'
 import { authOptions } from '<nextjs>/pages/api/auth/[...nextauth]'
 import { getServerSession } from 'next-auth'
+import Link from 'next/link'
 import 'tailwindcss/tailwind.css'
 
 export const metadata = {
@@ -22,7 +24,9 @@ export default async function RootLayout({
           {!session ? (
             <Login />
           ): (
-            <h1>hello</h1>
+            <div>
+              {children}
+            </div>
           )}
 
         </SessionProvider>
