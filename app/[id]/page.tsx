@@ -1,5 +1,4 @@
 import { PageProps } from '<nextjs>/.next/types/app/layout'
-import Logout from '<nextjs>/components/Logout';
 import Remove from '<nextjs>/components/Remove';
 import React from 'react'
 import { getServerSession } from 'next-auth'
