@@ -1,4 +1,4 @@
-import { PageProps } from '<nextjs>/.next/types/app/layout'
+import { PageProps } from '<nextjs>/.next/types/app/page';
 import Remove from '<nextjs>/components/Remove';
 import React from 'react'
 import { getServerSession } from 'next-auth'
