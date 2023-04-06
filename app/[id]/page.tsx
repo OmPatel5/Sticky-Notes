@@ -1,4 +1,3 @@
-import { PageProps } from '<nextjs>/.next/types/app/page';
 import Remove from '<nextjs>/components/Remove';
 import React from 'react'
 import { getServerSession } from 'next-auth'
@@ -19,7 +18,7 @@ async function getNote(noteId: string, email: string) {
 	}
 }
 
-async function NotesPage({ params }: PageProps) {
+async function NotesPage({ params }: any) {
   const session = await getServerSession(authOptions);
 	const email : any = session?.user?.email
 	
