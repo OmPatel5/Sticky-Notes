@@ -1,7 +1,7 @@
 # Sticky Notes
 Microsoft notes replica
 
-Project made with: 
+## Project made with: 
 - Next JS
 - Typescript
 - Pocketbase 
