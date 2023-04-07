@@ -1,4 +1,5 @@
 # Sticky Notes
+Microsoft notes replica
 
 Project made with: 
 - Next JS
