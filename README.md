@@ -10,6 +10,6 @@ Project made with:
 
 ## Usage
 
-Run 'npm run dev' on your local machine 
+Run 'npm run dev' 
 
 Run './pocketbase serve' to start pocketbase server
